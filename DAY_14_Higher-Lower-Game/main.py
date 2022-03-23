@@ -26,8 +26,6 @@ def game():
   score=0
   a_account=random_acc()
   b_account=random_acc()
-  print(a_account['follower_count'])
-  print(b_account['follower_count'])
   should_continue=True
   while should_continue:
     a_account=b_account
